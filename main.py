@@ -240,9 +240,9 @@ async def handle_message(event: UpdateNewMessage):
             caption=f"""
 File Name: `{data['file_name']}`
 Size: {data["size"]} 
-Direct Link: [Click Here](https://t.me/MaviTerabox_bot?start={uuid})
+Direct Link: [Click Here](https://t.me/Links_Bypasss_bot?start={uuid})
 
-@mavimods2
+@SK_MoviesOffl
 """,
             supports_streaming=True,
             spoiler=True,
@@ -262,9 +262,9 @@ Direct Link: [Click Here](https://t.me/MaviTerabox_bot?start={uuid})
             caption=f"""
 File Name: `{data['file_name']}`
 Size: {data["size"]} 
-Direct Link: [Click Here](https://t.me/MaviTerabox_bot?start={uuid})
+Direct Link: [Click Here](https://t.me/Links_Bypasss_bot?start={uuid})
 
-@mavimods2
+@SK_MoviesOffl
 """,
             progress_callback=progress_bar,
             thumb=thumbnail if thumbnail else None,
